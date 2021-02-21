@@ -1,0 +1,20 @@
+.item {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.isOnline {
+  background-color: green;
+}

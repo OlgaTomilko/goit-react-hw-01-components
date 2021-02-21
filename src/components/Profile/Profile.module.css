@@ -1,0 +1,40 @@
+.profile {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  font-family: arial;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tag,
+.location {
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid slategray;
+  background-color: skyblue;
+}
+.label {
+  color: teal;
+}

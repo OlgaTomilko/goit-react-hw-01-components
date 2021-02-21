@@ -1,0 +1,21 @@
+.transaction__history {
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 100%;
+}
+
+thead tr {
+  height: 40px;
+  background-color: steelblue;
+  color: white;
+}
+
+tbody tr {
+  height: 40px;
+  text-align: center;
+  color: gray;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: silver;
+}
