@@ -20,6 +20,7 @@ const FriendList = ({ friends }) => {
 
 FriendListItem.defaultProps = {
   avatar: defaultImg,
+  isOnline: false,
 };
 
 FriendList.propTypes = {
@@ -28,6 +29,7 @@ FriendList.propTypes = {
       avatar: PropTypes.string,
       name: PropTypes.string.isRequired,
       id: PropTypes.number.isRequired,
+      isOnline: PropTypes.oneOf([true, false]),
     }),
   ).isRequired,
 };
